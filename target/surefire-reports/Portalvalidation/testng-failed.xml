@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Portalvalidation]">
+  <test name="smok(failed)">
+    <classes>
+      <class name="testcases.VerifyLoginpage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- testcases.VerifyLoginpage -->
+      <class name="testcases.VerifyHomepage">
+        <methods>
+          <include name="setUP"/>
+          <include name="testhomepage"/>
+        </methods>
+      </class> <!-- testcases.VerifyHomepage -->
+    </classes>
+  </test> <!-- smok(failed) -->
+</suite> <!-- Failed suite [Portalvalidation] -->

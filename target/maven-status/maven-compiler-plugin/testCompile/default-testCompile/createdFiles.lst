@@ -1,0 +1,12 @@
+factory\Browserfactory.class
+dataprovider\ExcelDataprovider.class
+dataprovider\ConfigdataProvider.class
+pages\Homepage.class
+factory\Dataproviderfactory.class
+testcases\VerifyHomepage.class
+pages\Loginpage.class
+testcases\VerifyLoginpage.class
+testcases\VerifyLoginpageReportswithScreenshot.class
+testcases\VerifyLoginpageDatadriven.class
+testcases\VerifyLoginpageReports.class
+utility\Capturescreenshot.class
